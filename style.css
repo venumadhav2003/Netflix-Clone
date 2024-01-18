@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600&display=swap');*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(asserts/images/bg.jpeg);
+    background-position: center center;
+    height: 91vh;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+}
+.main .opacity{
+    height: 91vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 131px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Poppins', sans-serif;    
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position :relative
+}
+
+
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separate{
+    height: 7px;
+    background-color: rgb(46, 43, 43);
+    z-index: 20;
+    position: relative;
+}
+.btn{
+    padding: 3px 8px;
+    background-color: rgba(189, 90, 90, 0.139);
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-s{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+    .btn-st{
+    background-color: red;
+    color: white;
+    padding: 11px 35px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: red;
+}
+.main input{
+    padding: 14px 130px 20px 4px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(246,238,238,0.70);
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+    /* font-family: 'Poppins', sans-serif;    
+    height: calc(100% - 62px);
+    flex-direction: column;
+    position :relative */
+
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+.secImg video{
+    position: absolute;
+    top: 51;
+    right: 0;
+    width: 30vw;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.faqbox svg{
+    filter: invert(1);
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions{
+    padding: 34px 0;
+}
+
+footer a{
+    font-size: 15px;
+    color: white;
+}
+.footer{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.hello input{
+    padding: 14px 130px 20px 4px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(246,238,238,0.70);
+}
